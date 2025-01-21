@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(int argc, char const *argv[])
+int main()
 {
     int ans, count, chances, right;
     for (count = 1; count <= 10; count++)
