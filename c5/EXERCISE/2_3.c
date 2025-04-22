@@ -29,7 +29,7 @@ int main(void) {
             break;
         }
 
-        if (i + 1 + strlen(bigstr) > SIZE) {
+        if (strlen(bigstr) + strlen(str) + 1 >= SIZE) {
             break;
         }
 

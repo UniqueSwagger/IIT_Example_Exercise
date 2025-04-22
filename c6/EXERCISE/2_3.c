@@ -3,14 +3,4 @@
 // this fragment has executed? 
 // p = p + 2; 
 
-#include <stdio.h>
-
-int main()
-{
-    float *p;
-    p = (float *)100;
-    printf("%p\n", p);
-    p = p + 2;
-    printf("%p", p);
-    return 0;
-}
+// Sol: points to the address 108 

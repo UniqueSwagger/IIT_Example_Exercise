@@ -1,28 +1,21 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<string.h>
 int main()
 {
-    char text[][80] = {
-        "Hund",
-        "nein",
-        "Jahr",
-        "Kind",
-        "Ich",
-        "fahren",
-        "Haus",
-        "zu",
-        "",
-    };
-
-    int i, j;
-
-    // now display the name
-    for (i = 0; text[i][0]; i++)
+    char text[][80]=
     {
-        for (j = 0; text[i][j]; j++)
+        "when", "in", "the", "course",
+        "of", "human", "event",""
+    };
+    int i,j;
+    /*display them*/
+    for(i=0; text[i][0];i++)
+    {
+        for(j=0; text[i][j]; j++)
         {
-            printf("%c", text[i][j], j);
+            printf("%c",text[i][j]);
         }
-        printf("\t%s%02d\n", "--> 15", i + 1);
+        printf(" ");
     }
 
     return 0;
